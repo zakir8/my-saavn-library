@@ -1,0 +1,3 @@
+class SaavnLibrary < Saavn
+
+end
