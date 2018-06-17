@@ -1,0 +1,12 @@
+# Saavn's actual content
+# It responds with a 206 status code which is 'Partial Content' or sometimes a 200
+# the end of the id followed by '_' is bitrate of the song. I have tried 160 and 320 and they work
+
+# Channa Mereya Example
+http://aac.saavncdn.com/597/6da0627cfcc4b937160f664841e4572d_320.mp4
+
+# Cutiepie
+http://aac.saavncdn.com/597/e59b654006019314f78ad74c37e1c9e9_320.mp4
+
+# Humma song
+http://aac.saavncdn.com/835/c1dd33f01ec7b2d9423b20463f297f67_320.mp4

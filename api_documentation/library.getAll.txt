@@ -1,0 +1,66 @@
+# Essentially gets all the songs from my library.
+# This does look like this has an cookie with an expiration date
+# Gets me all the songs by id, playlists that I have created and also, 
+
+GET - http://www.saavn.com/api.php?__call=library.getAll&app_version=5.18&device_type=iPhone_6s&_format=json&ctx=iphoneapp&_marker=false&v=518.2&cc=us&network_type=WIFI&api_version=4
+
+
+-------------------------------- RESPONSE --------------------------------
+{
+    "song": ["  ", "-Fui7j3j", "-fZxHyJp", "-MsETpEt", "-Zm3YohH", "0gJ1Nm0-", "0Og1_4TL", "0QqlCqpR", "11A93Fgq", "14wnIwF3", "1ajvAxvI", "1a_MxvYZ", "1dBD1u7c", "1K9IsVVU", "1l8rWjQp", "1rV4UY9B", "2iObTJIQ", "2vj9FmM4", "2VnIsMY8", "2ybNE7mH", "2yMd1z-w", "3FhJlmJj", "3fvJoERT", "3sqO4eZy", "3x-IwBwd", "3xYEfDQ-", "40QbaX8a", "43iA26Tw", "4CI_0bzt", "4uBwReoN", "51rq6aG7", "55V5g7EK", "5CJDV07E", "6-QpF34d", "6EJDhnq4", "6E_Cm1uj", "6Nl0JWIz", "7-80uT2b", "77Cu12m8", "77ZQgvzk", "7axB72Ft", "7fBLu5UH", "7LXoMd-B", "7sVNcY5k", "7V246Km8", "8-bpBBFc", "8FqxVO85", "8PxM4PW9", "8vaG6IyS", "91UkyqkO", "9iFcO7xI", "9NTWOXEr", "A5Ttr72u", "aA0ThPxu", "AAmILQMB", "AeYZZ8DK", "aq84a-Ge", "aRZbUYD7", "Ay5K7BOs", "a_YmNP9r", "b7ki1yU-", "BBLYc4mS", "BckJuW28", "BCod8AJv", "BDET6q2V", "bIAmZceU", "bkZiVDG_", "Bn12_QII", "Bo1YGm3_", "bRgklsuv", "bSAXXL7S", "bSsUNb0H", "bWDwQKrY", "BYVv0hEU", "CdncOYcw", "ce2nW4DG", "cHPJ61pU", "CIPv20OL", "coVX2NCm", "csaEsVWV", "Cyu6QA-C", "cYVfssou", "C_HlPihw", "c_TCHFsS", "d-O4NgD6", "D6K-hfED", "D7ijwLOs", "d9KBZn66", "dacKDGFE", "DBiUlLyP", "dLBQ3aX_", "DMoLdwJ7", "DnOkCS1v", "dOq5vdPN", "DttzRBEG", "DvZ97B53", "dy57OPRS", "E2FeykWz", "E2r4QvlD", "e35rkcCF", "E88YzUq7", "EcLM9XUC", "EfAQjkux", "EJY0PNTi", "Eng0tSqR", "eOAeqzkp", "EU88Sv0J", "eUppCrQw", "EvaQr_UY", "eW_ePjCo", "EXuxsJXQ", "EZHvCEyw", "F1bJ7Cy9", "F5wHGJB1", "FAQkEogF", "fcfGul86", "fdE5LCYo", "fme85vQj", "FOx-yttO", "FuGmVhzo", "FvnzW8Jj", "fY2ah9K7", "FzDD262V", "g6ea5RKf", "GAJBhhQ1", "gdsab6lj", "gFJ1zEH4", "gGvtwUIH", "Ghdas_pn", "gkNzhKDk", "gTOlL2wh", "gYIjKo6_", "Hb50izgP", "hF3HvUtk", "Hiza6jgw", "HmR2Lt6x", "hWOaGSmA", "i0caj5nv", "iBEJR47H", "ih0HxQpV", "iMA-XcSh", "InQrwn5A", "iQvnfPnq", "J82LrEcw", "ja4zyVvb", "JAL_Hpjf", "jE4Mjfr0", "jEBV3Y0Q", "jeFBQBYS", "jFerJMnc", "Jig1jv8z", "JMrDUcGh", "juVn_mOz", "KHt0hR8K", "kkSYi8r_", "kl4HeN89", "kmzmvjwT", "kQS3Go-L", "kVGYhq-r", "L3KovXg6", "l5pcF0fg", "lehWEwCA", "LFCmaANn", "LgIoxtW4", "lJgjfYAA", "LJPdNE5o", "lkvvOq-m", "lnD8DGEC", "Lpfc4NDc", "lR3vjGyV", "lrEfgMew", "lteSMrqT", "lvB-AK_i", "LVGsHyEu", "lVqFelmk", "lx4SrGzP", "LXTWWvvX", "lZjslkQg", "M-BVuOgY", "m6DcVXHw", "m87V1xS7", "MBAeAkci", "mbUnAxF6", "meSf0KtV", "Mi5cCsQT", "MlvaL1RZ", "mNPBINjD", "mtLTazPN", "MtP_WuoC", "nbaFKWx2", "NCtteRy9", "nH99ba6C", "Ni6noMmw", "NJapos-y", "NLcn4RHp", "o2z76xv5", "o5XM95GG", "OdhZxea-", "odnXNcGH", "OdwpBkc8", "Oia4dLr5", "oLQczqGT", "oo8vD-lm", "ORDpob0A", "os4NLGfv", "OTvQaP1n", "owUEKi6M", "P3qdsetQ", "PBR7v61p", "pbrv5Xm3", "pevGH32m", "pkPP2DLn", "pl4om_5H", "pN_vcOt5", "PpJW6ypy", "PWJrtrtM", "Q-0kn5ZO", "q-W2sPgK", "Q0jNbqrs", "Q0pF8dtJ", "q1Y1PjUN", "qDEFLQrG", "qdWES1rs", "QDyPw6jb", "QO6TpOe_", "qoV92UoD", "qSc_X-h2", "qXd9hR2_", "Ra9F5rTD", "RCHdoWj7", "RLaPq0_l", "rlpoMDqy", "roicazNN", "rp87TG6e", "rtdvmBBB", "rTkrL_We", "R_bOCTKf", "Sl3uAmar", "Sl6cnBoz", "SM-rvz75", "SMUkURcp", "SOwiOH-Z", "st2Dycrf", "SWu3cDHH", "S_KaDQRn", "t4-vULuE", "T7YnKDPI", "TC5PSqsJ", "tdhrN_9I", "tIn7iq-R", "TJh8tz7R", "tK4rj9aO", "tn6UawO8", "tO_G9jOt", "TyNCNCum", "TzNuiVkX", "T_7diF2Z", "U3wEEo6F", "UgLWczzY", "uiEWT3kP", "UMFwT9MZ", "UOva6sV5", "UPQv1JNW", "UqkckAjl", "uQQn_GHl", "uTKfRJBj", "UTS_lFp7", "uuh6_aKT", "UUZ7c3nO", "uzpge8Vj", "V7IyGnyd", "VazdfnDC", "VCeN_rCT", "Vddo-avX", "VfHSXlqi", "vIlO8uHc", "VoNQ1Vh_", "vpb_TIuz", "VQp1eXug", "VwfemtNt", "wE95U-Hf", "WiFb6xcj", "wja-5ysb", "wKfG4twD", "Wn_eONzu", "WtJY0T-c", "wx6J-F3a", "WXi7VTPO", "wyR3UHVr", "X0VHE5np", "X5IXADi8", "XBtV-pNi", "xKnc-7g1", "xlHKCG9v", "xxsFHiKl", "y1U2klcv", "y3aIN6Vj", "y71akY5q", "y9OwuDl3", "yCWjrR0z", "Ygnn-Z9M", "ypGiFsPl", "yshGBwsU", "yuK5NP96", "yUloXZOa", "Yz5MzAgx", "yz6Xl7uT", "Z0teQlYo", "z4Ll6Tfu", "zekEI3N6", "zIPKC8PK", "Zl_HXxaJ", "Zo-Zl37L", "ZO6tBK6N", "zxVrHL0j", "_bvEX3v6", "_Dpnhlfe", "_G5f7avl", "_lD0D9lR", "_lywrlcm", "_SwJRVpR", "_xepYjRk", "_z7BMOFX", "AFuCAcp_", "bTX7Tqhb", "cje3mpYH", "ENMbCGoP", "I9uBQiO5", "kmEi_-qr", "my5Uf32R", "qNJjVi9V", "rhAWxVaG", "sEO8vfck", "TAvbQFFl", "TOBzyYI3", "w-O2DDpr", "HGZ48HBU", "iU7UPQsU", "9xnr1G5u", "3S5bi6S8", "AJdvATqD", "Q8vnCqJP", "Q6YJbkYe", "hKoBVK7T", "JT5fyNMa", "Mp9q7cJj", "WJSAeMrb", "Fb4QZzFJ", "p47itpzn", "bQbXpPby", "r15uFj_2", "hYoOAtW3", "DMLl-ROl", "ptEU_F7w", "U6mv523P", "QOnZ73l9", "Fwbx5GWV", "XkEMoT_8", "sMootkEv", "4LR0NYr5", "LDMR_G-s", "S-ciHBBe", "t7A_bm--", "7I3_KNjn", "avz12jMh", "c6aiyeF8", "w4JAC3PD", "UJ0dGLpm", "fMPUqMSs", "JHMmQ1Pp", "YDDTdzi4", "GbaIdJ48", "8i8GpzTd", "RzJasB8b", "nKu8kVct", "EMmqj3yq", "2slvk2fI", "_8y6zNqi", "DmFM4XiZ", "uI6JOYNb", "0HNzSbNg", "ELwR-4pI", "YZbjgSej", "_PBdjjUn", "c89Hkvmi", "mdm3lOLj", "SzelfpU7", "xh7WFoR8", "XxBmex2S", "irW1uPkV", "tEu-1E8r", "NDIx3YeI", "vYpen8x-", "fSwO0rhR", "JxeJ2By0", "QKYIpR5E", "FGClmHLK", "qXvE_teJ", "6-AhAJ8M", "notWDDht", "LwuULEQN", "SVLYcqv6", "VZd8cdGO", "FAucwP7p", "uW-pRAxO", "PIPY8MdN", "bhjXo7N-", "Fj6m_lSU", "V-HvGNCt", "S2_qz1hR", "iIapfd0i", "2V8SEU0e", "k28xFBPt", "Vnpn-XBN", "anq-FA8c", "Jr_wZJyt", "wUL21KHg", "ZXhpwdkn", "osNu5Bbu", "bYukkvFQ", "P44d8HJN", "AdrHDgtg", "2DIyeoMO", "a0yY5aoD", "dXXVyzQW", "DEBj_UCO", "xXQ44V6C", "73JSea6Z", "g_JNY1ON", "ZcVBeBLZ", "a_5lxelO", "VuKT5NQ6", "aCGR7j6r", "QFLyDVyf", "no4U0SP0", "87DDX7RT", "TXsCwJhg", "3Be_U0qz", "Suwo5AON", "j48hYo5u", "rh1gIwY_", "NLVt_02H", "6kXvZ_vk", "j4JZ6BCU", "PL6lLGuK", "GK2tXS2J", "vF9-ZqnQ", "GhCEu75E", "UyCmugHs", "khnQm52e", "5VhOCLn8", "AWr2L-Y-", "z3iZtqKn", "japTsCBU", "nDcrQx4U", "7TB7pbqE", "yaUg0eSj", "OSeLfhKc", "uleE6muc", "AnoVBdsh", "q1AGaVEh", "pkmV80ZI", "IdC8W52f", "Mqej3-eR", "VjQR7UKp", "dH7YvGWp", "cevU9-qi", "TJHsg8n0", "7vt_j7xS", "rRvwXyUZ", "gl1NZW_Z", "Ej20U73m", "ZZ4mj40V", "WCpI6Pg8", "S1oHIkjs", "21Uiw8WV", "h4poIp8i", "N3TtFtJY", "7MPINvqT", "WdqMxZ6u", "3pQhicrg", "O78wQw6P", "rKizTXYA", "fzSTYhdK", "UWJd1lmr", "5W642tKR", "KW5OkHCF", "3zkQ6dHa", "mCYHPwCR", "xuQ6IxhY", "VUFnzuwA", "foz6cKqK", "KaW6btQr", "NQc5qIwS", "HbsFJnrw", "FC63n6XV", "eram2w7j", "dqJbFyh3", "LXRQSqAJ", "cOsj1tFI", "O_sYuz6y", "jn2hFiDl", "B6P10miR", "vPL_cqbi", "s0VgNcS5", "l_o3OqQO", "P3EFvcxd", "CyAVQM_s", "Uh5-UClB", "ReygNV_t", "gJKS7V2U", "pmEZvCjH", "a1GICAtJ", "cKCa7W9N", "ITDrPpN7", "sYmWMgXY", "FqxwNKnC", "g1P3K3L4", "0n55hALC", "lmcJr7Rs", "FX6IFtr-", "MdLIRVaQ", "BlpMW4en", "pHYM4n-n", "4ZJPDxcU", "xAKaRKRu", "hXtlYuoZ", "UsJSnY_l", "7IzKvNgx", "tljIs7sP", "sG-ROhWp", "iG-7nU2-", "OpkZ7Tn9", "uzJ-i4q6", "YHlktRck", "m4LszkXG", "Y0pV-uWD", "rHwXyuRe", "nFUlWyR7", "qS41sYCN", "cPpj3U6g", "BA9IBw-w", "ed9ukHvF", "SBj_WLNs", "bxWY055u", "BfdWZbjN", "bd8hElp9", "aIPZWklc", "0-5hUtBO", "YxGZ04la", "injzG32Z", "Mv3_Doho", "gMCUOdzs", "dMLtyyzG", "QJOL7KVU", "Xo1Z1OwW", "f-x9bxwm", "TOcfc_Ms", "nAlIyfqd", "rJ0wDS4d", "mbcC2Mhy", "pg1iDzWA", "9Ff-0QbX", "e8IXc1fU", "IlSiu4s4", "ELS8tr5-", "ch3MyIuS", "xebefv9L", "fxCrcfpj", "Q1KPPpDw", "3aG_0iuM", "ZoK7rObi", "wlyGmMNW", "73mMilJ9", "t2D6LbX8", "SCGfSG8G", "4M8hCdpQ", "PGz9v8kO", "xGFzyAgM", "CRig53iA", "19i4BTvj", "qdV5Tioj", "t1QUqPnl", "i-EbVGMQ", "6JFaWhG2", "bXuloPh8", "xgcfmpZF", "jCAvwq9s", "joLr_geB", "50DFGJJE", "NwiMzGq5", "5j2VHWKa", "TX73Q0ZS", "i6NzcTJq", "2kUUXCmS", "FZZHiStF", "QLVFeFRo", "qFSo3L4m", "Yr09eeGX", "qN677FZI", "0-AGGoN-", "PwfG6tjV", "gOWdQ_AB", "d8zPFQOp", "N9MGwsXy", "NWonMo3e", "4NRpZd1v", "VHIrHojw", "2cSJUsAE", "a5d4-kXE", "_w31FiZW", "ie60krrs", "lglk9uiq", "5U7mpi0S", "4K0hevcy", "YmCz4tBk", "xzO11hOh", "XeVbKTJV", "vmWsEhRI", "vN2sl1IN", "jP2P3xwi", "nyi-m80-", "jACF6j2T", "EoYxOr1Y", "d_HDf4Db", "wxpUtIv4", "6YYcma1p", "ayQVFa6o", "iGOKUQR-", "iztY1MqV", "KTjVxvTQ", "xd4pvTx0"],
+    "album": ["1020541"],
+    "playlist": [{
+        "id": "274848",
+        "ts": "1490843328"
+    }, {
+        "id": "276657",
+        "ts": "1504213253"
+    }, {
+        "id": "1554477",
+        "ts": "1506431958"
+    }, {
+        "id": "2378759",
+        "ts": "1489022090"
+    }, {
+        "id": "2760372",
+        "ts": "1489534684"
+    }, {
+        "id": "58057412",
+        "ts": "1512382230"
+    }, {
+        "id": "75745577",
+        "ts": "1453500930"
+    }, {
+        "id": "85646047",
+        "ts": "1489820019"
+    }, {
+        "id": "87365775",
+        "ts": "1473382271"
+    }, {
+        "id": "89164331",
+        "ts": "1496860016"
+    }, {
+        "id": "98264665",
+        "ts": "1489819978"
+    }, {
+        "id": "104852567",
+        "ts": "1513853711"
+    }, {
+        "id": "107663303",
+        "ts": "1505774340"
+    }, {
+        "id": "129297138",
+        "ts": "1513895754"
+    }],
+    "show": [],
+    "artist": ["456269", "455130", "459633", "459320", "455275", "485956", "455125", "461361", "511656", "459696", "459632", "462795", "456323", "467592", "459634", "476389", "464656"],
+    "user": {
+        "fbid": "10154486685346539",
+        "firstname": "Zakir",
+        "uid": "zakir8905",
+        "username": "zakir8@gmail.com",
+        "follower_count": "0",
+        "following_count": "25",
+        "image": "https:\/\/graph.facebook.com\/v2.9\/10154486685346539\/picture"
+    }
+}

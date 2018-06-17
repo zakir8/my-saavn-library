@@ -1,0 +1,205 @@
+# This one is INTERESTING. If I keep calling the same URL, it will keep giving me new songs, just like it's playing a radio
+
+
+GET - http://www.saavn.com/api.php?__call=webradio.getSong&songid=QZfLN1vB&t=538156427.612040&playtime=261&stationid=AG%2CewMydt3CP7INtNDNM4mk8q4I3Cgo3&type=scratch&progress=0.000000&freemium=1&app_version=5.18&device_type=iPhone_6s&_format=json&ctx=iphoneapp&_marker=false&v=518.2&cc=us&network_type=WIFI&api_version=4
+
+
+
+------------------------------------------------- RESPONSE --------------------------------------------------
+
+{
+    "song": {
+        "id": "7nBCKJeI",
+        "title": "The Humma Song",
+        "type": "song",
+        "perma_url": "https:\/\/www.saavn.com\/s\/song\/hindi\/OK-Jaanu\/The-Humma-Song\/RwYpcj96Uno",
+        "image": "http:\/\/c.saavncdn.com\/835\/OK-Jaanu-Hindi-2017-150x150.jpg",
+        "language": "hindi",
+        "year": "2017",
+        "play_count": "42438976",
+        "explicit_content": "0",
+        "list_count": "0",
+        "list_type": "",
+        "list": "",
+        "more_info": {
+            "hashtags": [{
+                "id": "76",
+                "title": "#Happy",
+                "type": "channel"
+            }, {
+                "id": "27",
+                "title": "#Romantic",
+                "type": "channel"
+            }, {
+                "id": "881158",
+                "title": "#JubinNautiyal",
+                "type": "artist"
+            }, {
+                "id": "697946",
+                "title": "#ShashaaTirupati",
+                "type": "artist"
+            }, {
+                "id": "477854",
+                "title": "#ShraddhaKapoor",
+                "type": "artist"
+            }, {
+                "id": "669110",
+                "title": "#AdityaRoyKapoor",
+                "type": "artist"
+            }, {
+                "id": "77",
+                "title": "#YouGoGirl",
+                "type": "channel"
+            }, {
+                "id": "54",
+                "title": "#OnePlusBestof2017",
+                "type": "channel"
+            }, {
+                "id": "40",
+                "title": "#Dance",
+                "type": "channel"
+            }, {
+                "id": "29",
+                "title": "#Workout",
+                "type": "channel"
+            }, {
+                "id": "456269",
+                "title": "#ARRahman",
+                "type": "artist"
+            }, {
+                "id": "456863",
+                "title": "#Badshah",
+                "type": "artist"
+            }],
+            "music": "Tanishk Bagchi, Badshah, A.R. Rahman",
+            "album_id": "3304904",
+            "album": "OK Jaanu",
+            "label": "Sony Music Entertainment",
+            "origin": "radio",
+            "320kbps": "true",
+            "encrypted_media_url": "iPPGVzyogeiPwpro65A0eUaQggN+8+J4lAi0b4vUAx3FcKnPayYFfj2aHD0681d6gsXLJUDcJGePuMV0CvpANYPzFaL\/aK97",
+            "album_url": "https:\/\/www.saavn.com\/s\/album\/hindi\/OK-Jaanu-2017\/oOcDUteu9SA_",
+            "duration": "180",
+            "rights": {
+                "code": "0",
+                "reason": "",
+                "cacheable": "true"
+            },
+            "cache_state": "false",
+            "has_lyrics": "true",
+            "starred": "false",
+            "artistMap": {
+                "primary_artists": [{
+                    "id": "1595701",
+                    "name": "Tanishk Bagchi",
+                    "role": "primary_artists",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Tanishk_Bagchi_20170905113656.jpg"
+                }, {
+                    "id": "881158",
+                    "name": "Jubin Nautiyal",
+                    "role": "primary_artists",
+                    "image": ""
+                }, {
+                    "id": "697946",
+                    "name": "Shashaa Tirupati",
+                    "role": "primary_artists",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Shashaa_Tirupati.jpg"
+                }, {
+                    "id": "456863",
+                    "name": "Badshah",
+                    "role": "primary_artists",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Badshah.jpg"
+                }, {
+                    "id": "456269",
+                    "name": "A.R. Rahman",
+                    "role": "primary_artists",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/AR_Rahman.jpg"
+                }],
+                "featured_artists": [],
+                "artists": [{
+                    "id": "1595701",
+                    "name": "Tanishk Bagchi",
+                    "role": "music",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Tanishk_Bagchi_20170905113656.jpg"
+                }, {
+                    "id": "456863",
+                    "name": "Badshah",
+                    "role": "music",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Badshah.jpg"
+                }, {
+                    "id": "456269",
+                    "name": "A.R. Rahman",
+                    "role": "music",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/AR_Rahman.jpg"
+                }, {
+                    "id": "1595701",
+                    "name": "Tanishk Bagchi",
+                    "role": "singer",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Tanishk_Bagchi_20170905113656.jpg"
+                }, {
+                    "id": "881158",
+                    "name": "Jubin Nautiyal",
+                    "role": "singer",
+                    "image": ""
+                }, {
+                    "id": "1595701",
+                    "name": "Tanishk Bagchi",
+                    "role": "singer",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Tanishk_Bagchi_20170905113656.jpg"
+                }, {
+                    "id": "697946",
+                    "name": "Shashaa Tirupati",
+                    "role": "singer",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Shashaa_Tirupati.jpg"
+                }, {
+                    "id": "456863",
+                    "name": "Badshah",
+                    "role": "singer",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Badshah.jpg"
+                }, {
+                    "id": "456269",
+                    "name": "A.R. Rahman",
+                    "role": "singer",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/AR_Rahman.jpg"
+                }, {
+                    "id": "456863",
+                    "name": "Badshah",
+                    "role": "singer",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Badshah.jpg"
+                }, {
+                    "id": "456269",
+                    "name": "A.R. Rahman",
+                    "role": "singer",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/AR_Rahman.jpg"
+                }, {
+                    "id": "697946",
+                    "name": "Shashaa Tirupati",
+                    "role": "singer",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Shashaa_Tirupati.jpg"
+                }, {
+                    "id": "881158",
+                    "name": "Jubin Nautiyal",
+                    "role": "singer",
+                    "image": ""
+                }, {
+                    "id": "457474",
+                    "name": "Mehboob",
+                    "role": "lyricist",
+                    "image": ""
+                }, {
+                    "id": "669110",
+                    "name": "Aditya Roy Kapoor",
+                    "role": "starring",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Aditya_Roy_Kapoor.jpg"
+                }, {
+                    "id": "477854",
+                    "name": "Shraddha Kapoor",
+                    "role": "starring",
+                    "image": "http:\/\/c.saavncdn.com\/artists\/Shraddha_Kapoor.jpg"
+                }]
+            },
+            "lyrics_id": "c3a3Z-rw"
+        }
+    },
+    "stationid": "AG,ewMydt3CP7INtNDNM4mk8q4I3Cgo3"
+}

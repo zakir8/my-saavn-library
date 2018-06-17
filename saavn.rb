@@ -35,7 +35,7 @@ class Saavn
 
     # this function needs a cookie in order to get user's library
     def get_library
-        raise "No cookie. Please call login first" if self.instance_variable.get(:@cookie).nil?
+        raise "No cookie. Please call login first" if self.instance_variable_get(:@cookie).nil?
 
         params = {
             :__call => "library.getAll",
@@ -68,7 +68,7 @@ class Saavn
     def get_songs_details(song_ids)
         params = {
             :__call => "song.getDetails",
-            :pids => song_ids.join(","),
+            :pids => [song_ids].flatten.join(","),
             :_format => "json",
             :_marker => "false",
             :api_version => 4
@@ -81,16 +81,16 @@ class Saavn
             # removes the annoying empty spaces from the response
             JSON.parse(response.body.gsub("\n", ""))
         else
-            raise "Couldn't get the song information for id's: #{song_ids.join(", ")}"
+            raise "Couldn't get the song information for id's: #{[song_ids].flatten.join(", ")}"
         end
     end
 
-    # not sure how this could be used, but I will have it for now. the endpoints exists on saavn
+    # not sure how this could be used, but I will have it for now. the endpoint exists on saavn
     def get_launch_data
         #TODO
     end
 
-    # not sure how this could be used, but I will have it for now. the endpoints exists on saavn
+    # not sure how this could be used, but I will have it for now. the endpoint exists on saavn
     def get_social_data
         #TODO
     end
