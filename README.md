@@ -1,4 +1,4 @@
-# my-saavn-library
+# My Saavn Library
 
 This program let's you strip your saavn mobile library out in a CSV file, so you have a easier time transferring to services of your choice i.e Apple Music, Rdio, Spotify, Gaana, etc. 
 
@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-All you need is ruby installed on your machine. To install it if you don't already have it then use, 
+All you need is ruby installed on your machine. To install it if you don't have it, then use:
 
 Mac OSX (Homebrew)
 ```
@@ -42,8 +42,8 @@ ruby saavn_library.rb username password
 For example : ruby saavn_library.rb "john.smith@gmail.com" "my_strong_password"
 
 ## TODO
-    # get playlist details in csv
-    # get user details
+    - Get playlist details in csv
+    - Get user details (followers, following, etc)
 
 ## Author
 
@@ -55,7 +55,7 @@ Note: If you end up using this in your application, please make sure to give me 
 ## License
 
 ```
-Copyright (c) <year> <copyright holders>
+Copyright (c) 2018
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
