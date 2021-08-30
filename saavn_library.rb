@@ -48,7 +48,7 @@ ARGV.each_slice(2) do|user, pass|
             **** Singer : #{singers}
         "
     end
-    
+
     puts "Wrapping up!"
 
     file_name = "saavn_songs_#{user}.csv"

@@ -60,7 +60,7 @@ class Saavn
             #removes annoying empty spaces from the response
             JSON.parse(response.body.gsub("\n", ""))
         else
-            raise "Couldn't get your library information. Make sure you entered your information correctly"
+            raise RuntimeError, "Couldn't get your library information. Make sure you entered your information correctly"
         end
     end
 
@@ -97,7 +97,7 @@ class Saavn
 
     private
         def base_url
-            "https://www.saavn.com/api.php"
+            "https://www.jiosaavn.com/api.php"
         end
 
         def to_param(hsh)
